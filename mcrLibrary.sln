@@ -7,7 +7,7 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "mcrLog", "mcrLog\mcrLog.vbp
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "mcrDB", "mcrDB\mcrDB.vbproj", "{35636B94-14C6-4FAF-9B8D-9051EA095436}"
 EndProject
-Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "mcrTools", "..\mcrTools\mcrTools.vbproj", "{C1F8002D-9A73-4348-8E07-7ACC60BD1353}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "mcrTools", "mcrTools\mcrTools.vbproj", "{4AF291C9-BE95-4B5B-B826-8AD460EA281E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{35636B94-14C6-4FAF-9B8D-9051EA095436}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35636B94-14C6-4FAF-9B8D-9051EA095436}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35636B94-14C6-4FAF-9B8D-9051EA095436}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1F8002D-9A73-4348-8E07-7ACC60BD1353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1F8002D-9A73-4348-8E07-7ACC60BD1353}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1F8002D-9A73-4348-8E07-7ACC60BD1353}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1F8002D-9A73-4348-8E07-7ACC60BD1353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF291C9-BE95-4B5B-B826-8AD460EA281E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF291C9-BE95-4B5B-B826-8AD460EA281E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF291C9-BE95-4B5B-B826-8AD460EA281E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF291C9-BE95-4B5B-B826-8AD460EA281E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

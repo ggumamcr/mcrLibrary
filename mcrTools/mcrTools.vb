@@ -6,7 +6,6 @@ Public Class mcrTools
     Private Shared sModuleName As String = "mcrTools"
 #End Region
 
-
 #Region "Time Operations"
     Public Shared Sub mcrDelay(ByVal iNumMiliSeconds As Integer)
 

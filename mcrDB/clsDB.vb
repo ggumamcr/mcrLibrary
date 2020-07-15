@@ -943,9 +943,6 @@ Public Class mcrDB
             If Not (cnn Is Nothing) Then
                 If cnn.State = ConnectionState.Open Then cnn.Close()
             End If
-
-
-
             cnn.Dispose()
         End Try
 

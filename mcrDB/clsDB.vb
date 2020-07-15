@@ -1028,6 +1028,4 @@ Public Class mcrDB
     'End Sub
 #End Region
 
-
-
 End Class

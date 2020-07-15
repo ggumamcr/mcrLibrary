@@ -1,8 +1,10 @@
-﻿Imports System.Data
-Imports System.Data.SqlClient
+﻿Imports Microsoft.Data
+Imports System.Data
+Imports Microsoft.Data.SqlClient
 Imports System.Xml
 Imports mcrLog.NLog
-Imports System.Windows.Forms
+
+
 
 
 Public Class mcrDB
@@ -448,7 +450,7 @@ Public Class mcrDB
 #End Region
 
 #Region "Display forms"
-    Public Shared Sub dbDisplayLoginForm(ByVal frmMain As Windows.Forms.Form)
+    Public Shared Sub dbDisplayLoginForm()
 
         Try
             'Dim frm As New frmLogin
@@ -458,7 +460,7 @@ Public Class mcrDB
             'frm.BringToFront()
 
             Dim frm As New frmDBLogin
-            frm.ShowDialog()
+            'frm.ShowDialog()
 
         Catch ex As Exception
             LogFatal(myApp, sModuleName, "dbDisplayLoginForm", ex, "")
@@ -471,9 +473,9 @@ Public Class mcrDB
         Try
             Dim frm As New frmDBInfo
 
-            frm.MdiParent = frmMain
-            frm.Show()
-            frm.BringToFront()
+            'frm.MdiParent = frmMain
+            'frm.Show()
+            'frm.BringToFront()
 
             'frm.Show()
         Catch ex As Exception

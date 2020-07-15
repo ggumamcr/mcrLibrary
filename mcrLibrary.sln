@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "mcrLog", "mcrLog\mcrLog.vbproj", "{102AA433-D6B6-4941-B83A-47D6ED6D18DB}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "mcrDB", "mcrDB\mcrDB.vbproj", "{35636B94-14C6-4FAF-9B8D-9051EA095436}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "mcrTools", "..\mcrTools\mcrTools.vbproj", "{C1F8002D-9A73-4348-8E07-7ACC60BD1353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{102AA433-D6B6-4941-B83A-47D6ED6D18DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102AA433-D6B6-4941-B83A-47D6ED6D18DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102AA433-D6B6-4941-B83A-47D6ED6D18DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102AA433-D6B6-4941-B83A-47D6ED6D18DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35636B94-14C6-4FAF-9B8D-9051EA095436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35636B94-14C6-4FAF-9B8D-9051EA095436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35636B94-14C6-4FAF-9B8D-9051EA095436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35636B94-14C6-4FAF-9B8D-9051EA095436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F8002D-9A73-4348-8E07-7ACC60BD1353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F8002D-9A73-4348-8E07-7ACC60BD1353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F8002D-9A73-4348-8E07-7ACC60BD1353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F8002D-9A73-4348-8E07-7ACC60BD1353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B938DF6-8CC1-4C6F-8C70-37481A3C1C28}
+	EndGlobalSection
+EndGlobal

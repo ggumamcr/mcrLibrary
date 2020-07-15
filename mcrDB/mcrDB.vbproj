@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>mcrDB</RootNamespace>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\mcrLog\mcrLog.vbproj" />
+		<ProjectReference Include="..\mcrTools\mcrTools.vbproj" />
+	</ItemGroup>
+
+</Project>
